@@ -1,0 +1,34 @@
+[
+    {
+        "id": 12989,
+        "url": "http://123tramites.com/",
+        "visit_id": 26192,
+        "timestamp": 672944596.027653,
+        "isodate": "2022-04-29 17:03:16.027653",
+        "redirect_source": null,
+        "redirect_destination": null,
+        "safari_history_db": "1a/1a0e7afc19d307da602ccdcece51af33afe92c53",
+        "matched_indicator": {
+            "value": "123tramites.com",
+            "type": "domains",
+            "name": "Pegasus",
+            "stix2_file_name": "pegasus.stix2"
+        }
+    },
+    {
+        "id": 12989,
+        "url": "http://123tramites.com/",
+        "visit_id": 27032,
+        "timestamp": 674428051.415886,
+        "isodate": "2022-05-16 21:07:31.415886",
+        "redirect_source": null,
+        "redirect_destination": null,
+        "safari_history_db": "1a/1a0e7afc19d307da602ccdcece51af33afe92c53",
+        "matched_indicator": {
+            "value": "123tramites.com",
+            "type": "domains",
+            "name": "Pegasus",
+            "stix2_file_name": "pegasus.stix2"
+        }
+    }
+]

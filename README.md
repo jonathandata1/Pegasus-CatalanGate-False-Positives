@@ -26,13 +26,28 @@
 
 ## Finding The Origin of Detection
 
-### Citizen Lab and Amnesty jointly released a spyware detection tool named "MVT" or Mobile Verification Toolkit. The toolkit contains IOCs or indicators of compromise, and here we can find of the absolute confirmed malicious URLs 123tramites.com
+### Citizen Lab and Amnesty jointly released a spyware detection tool named "MVT" or Mobile Verification Toolkit. The toolkit contains IOCs or indicators of compromise, and here we can find of the absolute confirmed malicious URLs 123tramites.com Below is a code snippet showing Amnesty and Citizen Lab providing the IOCs. 
 
+    [
+        {
+            "name": "NSO Group Pegasus Indicators of Compromise",
+            "source": "Amnesty International",
+            "reference": "https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/",
+            "stix2_url": "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix2"
+        },
+        {
+            "name": "Cytrox Predator Spyware Indicators of Compromise",
+            "source": "Meta, Amnesty International, Citizen Lab",
+            "reference": "https://citizenlab.ca/2021/12/pegasus-vs-predator-dissidents-doubly-infected-iphone-reveals-cytrox-mercenary-spyware/",
+            "stix2_url": "https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/cytrox.stix2"
+        }
+    ]
 ![CatalanGate](https://i.postimg.cc/qBY66yx0/Screen-Shot-2022-05-16-at-4-03-06-PM.png)
 
 
 **Sources:**
 - https://github.com/mvt-project/mvt
+- https://github.com/mvt-project/mvt/blob/main/public_indicators.json
 - https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-07-18_nso/pegasus.stix2
 
 ### The MVT-Tool specifically states in the code
@@ -43,36 +58,37 @@
 
 ### The base of the website detection tool specifically states that if a website is found in the backup that matches with the IOC mark the result as positive. It is clear that the only logic implemented to confirm a device has been infected is checking to see if keyword strings match.
 
-`class WebkitBase(IOSExtraction):  
-    """This class is a base for other WebKit-related modules."""  `
-  
- ` def check_indicators(self):  
-        if not self.indicators:  
-            return  `
-  
-` for result in self.results:  
-            ioc = self.indicators.check_domain(result["url"])  
-            if ioc:  
-                result["matched_indicator"] = ioc  
-                self.detected.append(result)  `
-  
-   ` def _process_webkit_folder(self, root_paths):  
-        for found_path in self._get_fs_files_from_patterns(root_paths):  
-            key = os.path.relpath(found_path, self.base_folder)  `
-  
-          `  for name in os.listdir(found_path):  
-                if not name.startswith("http"):  
-                    continue`
-  
-`  name = name.replace("http_", "http://")  
-                name = name.replace("https_", "https://")  
-                url = name.split("_")[0]  `
-  
-             `   self.results.append({  
-                    "folder": key,  `
-  `"url": url,  
-  "isodate": convert_timestamp_to_iso(datetime.datetime.utcfromtimestamp(os.stat(found_path).st_mtime)),  
-  })`
+    class WebkitBase(IOSExtraction):  
+        """This class is a base for other WebKit-related modules."""  
+      
+      def check_indicators(self):  
+            if not self.indicators:  
+                return  
+      
+     for result in self.results:  
+                ioc = self.indicators.check_domain(result["url"])  
+                if ioc:  
+                    result["matched_indicator"] = ioc  
+                    self.detected.append(result)  
+      
+        def _process_webkit_folder(self, root_paths):  
+            for found_path in self._get_fs_files_from_patterns(root_paths):  
+                key = os.path.relpath(found_path, self.base_folder)  
+      
+                for name in os.listdir(found_path):  
+                    if not name.startswith("http"):  
+                        continue  
+      
+      name = name.replace("http_", "http://")  
+                    name = name.replace("https_", "https://")  
+                    url = name.split("_")[0]  
+      
+                    self.results.append({  
+                        "folder": key,  
+      "url": url,  
+      "isodate": convert_timestamp_to_iso(datetime.datetime.utcfromtimestamp(os.stat(found_path).st_mtime)),  
+      })
+
   
 **Source**: https://github.com/mvt-project/mvt/blob/main/mvt/ios/modules/fs/webkit_base.py
 
@@ -92,15 +108,14 @@
 5. Take an encrypted backup of your mobile phone. 
 6. Once your backup is completed. Decrypt the backup
 7. If you followed the instructions in step #1 you should have a folder named ioc. do the following
-`cd ioc`
-`wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/cytrox.stix2`
+`cd ioc
+wget https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/cytrox.stix2`
 8. Next you will run the "forensics tool," and notice that you now have positive results
 ```
 mvt-ios check-backup -o checked --iocs ioc/pegasus.stix2 decrypted
 ```
 ```
 mvt-ios check-backup -o checked --iocs ioc/cytrox.stix2 decrypted
-
 
 ```
 ## Safari False Positive Results

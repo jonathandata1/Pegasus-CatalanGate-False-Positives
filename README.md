@@ -26,7 +26,7 @@
 
 ## Finding The Origin of Detection
 
-### Citizen Lab and Amnesty jointly released a spyware detection tool named "MVT" or Mobile Verification Toolkit. The toolkit contains IOCs or indicators of compromise, and here we can find of the absolute confirmed malicious URLs 123tramites.com Below is a code snippet showing Amnesty and Citizen Lab providing the IOCs. 
+### Citizen Lab and Amnesty jointly released a spyware detection tool named "MVT" or Mobile Verification Toolkit. The toolkit contains IOCs or indicators of compromise, and here we can find one of the absolute confirmed malicious URLs 123tramites.com. Below is a code snippet showing Amnesty and Citizen Lab providing the IOCs. 
 
     [
         {

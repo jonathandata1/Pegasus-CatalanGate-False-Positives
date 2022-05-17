@@ -99,7 +99,7 @@
  1. I found that the running the experiment via a docker image was easiest, and did not produce any errors when installing the MVT-Tool. I used an excellent repo from Defensive Lab Agency to help with the setup. https://defensive-lab.agency/2021/07/pegasus-ios-forensic/ 
  2. Open your Safari Browser and go to the URL https://www.123tramites.com , you will get a blank page, but that is ok. Do not close the browser tab, it's ok if you switch apps. 
  3. Make sure you have WhatsApp installed on your mobile device, and ensure you have at least 1 contact on WhatsApp you can message.  
- 4. Send the following URLs to someone in your WhatsApp contact list. The URLs being sent via Whats App can be found here: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/cytrox.stix2
+ 4. Send the following URLs to someone in your WhatsApp contact list. The URLs being sent via WhatsApp can be found here: https://raw.githubusercontent.com/AmnestyTech/investigations/master/2021-12-16_cytrox/cytrox.stix2
 
 ![CatalanGate](https://i.postimg.cc/pXrfjPjb/Screen-Shot-2022-05-16-at-3-19-46-PM.png)
 

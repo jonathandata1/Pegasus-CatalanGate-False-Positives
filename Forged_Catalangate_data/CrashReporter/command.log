@@ -1,0 +1,834 @@
+2022-11-24 12:55:13,893 - mvt.ios.modules.backup.backup_info - INFO - Running module BackupInfo...
+2022-11-24 12:55:13,894 - mvt.ios.modules.backup.backup_info - INFO - Build Version: 19H12
+2022-11-24 12:55:13,895 - mvt.ios.modules.backup.backup_info - INFO - Device Name: iPhone
+2022-11-24 12:55:13,896 - mvt.ios.modules.backup.backup_info - INFO - Display Name: iPhone
+2022-11-24 12:55:13,897 - mvt.ios.modules.backup.backup_info - INFO - GUID: 6B649687405A4F012847EBB9BE9DA885
+2022-11-24 12:55:13,898 - mvt.ios.modules.backup.backup_info - INFO - ICCID: None
+2022-11-24 12:55:13,899 - mvt.ios.modules.backup.backup_info - INFO - IMEI: 355423070303867
+2022-11-24 12:55:13,900 - mvt.ios.modules.backup.backup_info - INFO - MEID: 35542307030386
+2022-11-24 12:55:13,901 - mvt.ios.modules.backup.backup_info - INFO - Installed Applications: []
+2022-11-24 12:55:13,902 - mvt.ios.modules.backup.backup_info - INFO - Last Backup Date: 2022-11-24 18:20:44
+2022-11-24 12:55:13,903 - mvt.ios.modules.backup.backup_info - INFO - Phone Number: None
+2022-11-24 12:55:13,904 - mvt.ios.modules.backup.backup_info - INFO - Product Name: None
+2022-11-24 12:55:13,905 - mvt.ios.modules.backup.backup_info - INFO - Product Type: iPhone8,1 (iPhone 6s)
+2022-11-24 12:55:13,907 - mvt.ios.modules.backup.backup_info - INFO - Product Version: 15.7
+2022-11-24 12:55:13,908 - mvt.ios.modules.backup.backup_info - INFO - Serial Number: F17QL8LNGRY7
+2022-11-24 12:55:13,909 - mvt.ios.modules.backup.backup_info - INFO - Target Identifier: a46e61b9b29bd67a677d0ee635fa1fa59316bdaf
+2022-11-24 12:55:13,910 - mvt.ios.modules.backup.backup_info - INFO - Target Type: Device
+2022-11-24 12:55:13,911 - mvt.ios.modules.backup.backup_info - INFO - Unique Identifier: A46E61B9B29BD67A677D0EE635FA1FA59316BDAF
+2022-11-24 12:55:13,912 - mvt.ios.modules.backup.backup_info - INFO - iTunes Version: 12.5.0
+2022-11-24 12:55:13,913 - mvt.ios.modules.backup.backup_info - WARNING - This phone is running an outdated iOS version: 15.7 (latest is 16.1.1)
+2022-11-24 12:55:13,915 - mvt.ios.modules.backup.backup_info - INFO - The BackupInfo module does not support checking for indicators
+2022-11-24 12:55:13,917 - mvt.ios.modules.backup.configuration_profiles - INFO - Running module ConfigurationProfiles...
+2022-11-24 12:55:13,919 - mvt.ios.modules.backup.configuration_profiles - INFO - Extracted details about 0 configuration profiles
+2022-11-24 12:55:13,920 - mvt.ios.modules.backup.configuration_profiles - INFO - The ConfigurationProfiles module produced no detections!
+2022-11-24 12:55:13,921 - mvt.ios.modules.backup.manifest - INFO - Running module Manifest...
+2022-11-24 12:55:13,922 - mvt.ios.modules.backup.manifest - INFO - Found Manifest.db database at path: decrypt/Manifest.db
+2022-11-24 12:55:14,235 - mvt.ios.modules.backup.manifest - INFO - Extracted a total of 3053 file metadata items
+2022-11-24 12:55:14,476 - mvt.ios.modules.backup.manifest - INFO - The Manifest module produced no detections!
+2022-11-24 12:55:14,567 - mvt.ios.modules.backup.profile_events - INFO - Running module ProfileEvents...
+2022-11-24 12:55:14,569 - mvt.ios.modules.backup.profile_events - INFO - Extracted 0 profile events
+2022-11-24 12:55:14,570 - mvt.ios.modules.backup.profile_events - INFO - The ProfileEvents module produced no detections!
+2022-11-24 12:55:14,571 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 12:55:14,573 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 12:55:14,575 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 12:55:14,576 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 12:55:14,578 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 12:55:14,579 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 12:55:14,581 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 12:55:14,582 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 12:55:14,584 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 12:55:14,586 - mvt.ios.modules.mixed.contacts - INFO - Database at path decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442 is malformed. Trying to recover...
+2022-11-24 12:55:14,598 - mvt.ios.modules.mixed.contacts - INFO - Database at path decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442 recovered successfully!
+2022-11-24 12:55:14,600 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 12:55:14,602 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 12:55:14,605 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 12:55:14,606 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 12:55:14,608 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 12:55:14,609 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 12:55:14,610 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 12:55:14,611 - mvt.ios.modules.mixed.idstatuscache - INFO - There might be no data to extract by module IDStatusCache: unable to find the module's database file
+2022-11-24 12:55:14,613 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 12:55:14,615 - mvt.ios.modules.mixed.interactionc - INFO - Database at path decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee is malformed. Trying to recover...
+2022-11-24 12:55:14,627 - mvt.ios.modules.mixed.interactionc - INFO - Database at path decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee recovered successfully!
+2022-11-24 12:55:14,629 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 12:55:14,631 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 12:55:14,634 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 12:55:14,636 - mvt.ios.modules.mixed.locationd - INFO - Found Locationd Clients plist at path: decrypt/a6/a690d7769cce8904ca2b67320b107c8fe5f79412
+2022-11-24 12:55:14,638 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 50 Locationd Clients entries
+2022-11-24 12:55:14,642 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 12:55:14,645 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 12:55:14,646 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 12:55:14,648 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 12:55:14,650 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 12:55:14,653 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 12:55:14,655 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 12:55:14,658 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 12:55:14,661 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 12:55:14,664 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 12:55:14,666 - mvt.ios.modules.mixed.safari_browserstate - INFO - Found Safari browser state database at path: decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e
+2022-11-24 12:55:14,668 - mvt.ios.modules.mixed.safari_browserstate - INFO - Database at path decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e is malformed. Trying to recover...
+2022-11-24 12:55:14,681 - mvt.ios.modules.mixed.safari_browserstate - INFO - Database at path decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e recovered successfully!
+2022-11-24 12:55:14,685 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 12:55:14,686 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 12:55:14,688 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 12:55:14,690 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 12:55:14,691 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 12:55:14,692 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 12:55:14,694 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 12:55:14,697 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 12:55:14,700 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 12:55:14,702 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 12:55:14,705 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 12:55:14,708 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 12:55:14,709 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 12:55:14,710 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 12:55:14,713 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 12:55:14,716 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 12:55:14,717 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 12:55:14,718 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 12:55:14,720 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 12:55:14,722 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 12:55:14,724 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 12:55:14,725 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 12:55:14,726 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 12:55:14,727 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 12:55:14,729 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 12:55:14,731 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 12:55:14,734 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 12:55:14,735 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 12:55:50,449 - mvt.ios.modules.fs.cache_files - INFO - Running module CacheFiles...
+2022-11-24 12:55:50,457 - mvt.ios.modules.fs.cache_files - INFO - The CacheFiles module produced no detections!
+2022-11-24 12:55:50,458 - mvt.ios.modules.fs.filesystem - INFO - Running module Filesystem...
+2022-11-24 12:55:50,547 - mvt.ios.modules.fs.filesystem - INFO - The Filesystem module produced no detections!
+2022-11-24 12:55:50,558 - mvt.ios.modules.fs.net_netusage - INFO - Running module Netusage...
+2022-11-24 12:55:50,559 - mvt.ios.modules.fs.net_netusage - INFO - The Netusage module produced no detections!
+2022-11-24 12:55:50,561 - mvt.ios.modules.fs.analytics - INFO - Running module Analytics...
+2022-11-24 12:55:50,562 - mvt.ios.modules.fs.analytics - INFO - Extracted 0 records from analytics databases
+2022-11-24 12:55:50,563 - mvt.ios.modules.fs.analytics - INFO - The Analytics module produced no detections!
+2022-11-24 12:55:50,564 - mvt.ios.modules.fs.analytics_ios_versions - INFO - Running module AnalyticsIOSVersions...
+2022-11-24 12:55:50,565 - mvt.ios.modules.fs.analytics_ios_versions - INFO - The AnalyticsIOSVersions module does not support checking for indicators
+2022-11-24 12:55:50,566 - mvt.ios.modules.fs.safari_favicon - INFO - Running module SafariFavicon...
+2022-11-24 12:55:50,568 - mvt.ios.modules.fs.safari_favicon - INFO - Extracted a total of 0 favicon records
+2022-11-24 12:55:50,569 - mvt.ios.modules.fs.safari_favicon - INFO - The SafariFavicon module produced no detections!
+2022-11-24 12:55:50,570 - mvt.ios.modules.fs.shutdownlog - INFO - Running module ShutdownLog...
+2022-11-24 12:55:50,571 - mvt.ios.modules.fs.shutdownlog - INFO - There might be no data to extract by module ShutdownLog: unable to find the module's database file
+2022-11-24 12:55:50,572 - mvt.ios.modules.fs.version_history - INFO - Running module IOSVersionHistory...
+2022-11-24 12:55:50,573 - mvt.ios.modules.fs.version_history - INFO - The IOSVersionHistory module does not support checking for indicators
+2022-11-24 12:55:50,574 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Running module WebkitIndexedDB...
+2022-11-24 12:55:50,575 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Extracted a total of 0 WebKit IndexedDB records
+2022-11-24 12:55:50,576 - mvt.ios.modules.fs.webkit_indexeddb - INFO - The WebkitIndexedDB module produced no detections!
+2022-11-24 12:55:50,577 - mvt.ios.modules.fs.webkit_localstorage - INFO - Running module WebkitLocalStorage...
+2022-11-24 12:55:50,578 - mvt.ios.modules.fs.webkit_localstorage - INFO - Extracted a total of 0 records from WebKit Local Storages
+2022-11-24 12:55:50,580 - mvt.ios.modules.fs.webkit_localstorage - INFO - The WebkitLocalStorage module produced no detections!
+2022-11-24 12:55:50,581 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Running module WebkitSafariViewService...
+2022-11-24 12:55:50,582 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Extracted a total of 0 records from WebKit SafariViewService WebsiteData
+2022-11-24 12:55:50,583 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - The WebkitSafariViewService module produced no detections!
+2022-11-24 12:55:50,584 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 12:55:50,586 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 12:55:50,588 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 12:55:50,590 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 12:55:50,591 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 12:55:50,592 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 12:55:50,593 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 12:55:50,595 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 12:55:50,596 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 12:55:50,597 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 12:55:50,599 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 12:55:50,602 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 12:55:50,603 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 12:55:50,604 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 12:55:50,605 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 12:55:50,606 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 12:55:50,607 - mvt.ios.modules.mixed.idstatuscache - INFO - Extracted a total of 0 ID Status Cache entries
+2022-11-24 12:55:50,608 - mvt.ios.modules.mixed.idstatuscache - INFO - The IDStatusCache module produced no detections!
+2022-11-24 12:55:50,610 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 12:55:50,611 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 12:55:50,612 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 12:55:50,614 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 12:55:50,615 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 0 Locationd Clients entries
+2022-11-24 12:55:50,616 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 12:55:50,617 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 12:55:50,619 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 12:55:50,620 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 12:55:50,622 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 12:55:50,625 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 12:55:50,628 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 12:55:50,630 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 12:55:50,631 - mvt.ios.modules.mixed.net_datausage - INFO - Extended search for suspicious processes ...
+2022-11-24 12:55:50,649 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.camera at 2022-11-24 03:50:44.871090
+2022-11-24 12:55:50,650 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.stocks at 2022-11-24 03:50:44.872037
+2022-11-24 12:55:50,652 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.iBooks at 2022-11-24 03:50:44.872460
+2022-11-24 12:55:50,653 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Maps at 2022-11-24 03:50:44.874568
+2022-11-24 12:55:50,654 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.AppStore at 2022-11-24 03:50:44.875111
+2022-11-24 12:55:50,655 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileStore at 2022-11-24 03:50:44.875458
+2022-11-24 12:55:50,657 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Preferences at 2022-11-24 03:50:44.878571
+2022-11-24 12:55:50,658 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tips at 2022-11-24 03:50:44.879132
+2022-11-24 12:55:50,659 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilesafari at 2022-11-24 03:50:44.879481
+2022-11-24 12:55:50,660 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.podcasts at 2022-11-24 03:50:44.879843
+2022-11-24 12:55:50,662 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.weather at 2022-11-24 03:50:44.880203
+2022-11-24 12:55:50,663 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.news at 2022-11-24 03:50:44.880611
+2022-11-24 12:55:50,664 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Bridge at 2022-11-24 03:50:44.881012
+2022-11-24 12:55:50,665 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilecal at 2022-11-24 03:50:44.881392
+2022-11-24 12:55:50,667 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.reminders at 2022-11-24 03:50:44.881783
+2022-11-24 12:55:50,668 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Music at 2022-11-24 03:50:44.882178
+2022-11-24 12:55:50,669 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilemail at 2022-11-24 03:50:44.882581
+2022-11-24 12:55:50,671 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilenotes at 2022-11-24 03:50:44.883041
+2022-11-24 12:55:50,672 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobiletimer at 2022-11-24 03:50:44.883579
+2022-11-24 12:55:50,673 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobileslideshow at 2022-11-24 03:50:44.884126
+2022-11-24 12:55:50,674 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.facetime at 2022-11-24 03:50:44.884687
+2022-11-24 12:55:50,675 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.compass at 2022-11-24 03:50:44.885704
+2022-11-24 12:55:50,677 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileAddressBook at 2022-11-24 03:50:44.886353
+2022-11-24 12:55:50,678 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Passbook at 2022-11-24 03:50:44.895051
+2022-11-24 12:55:50,679 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.gamecenter at 2022-11-24 03:50:44.900683
+2022-11-24 12:55:50,680 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Home at 2022-11-24 03:50:44.902621
+2022-11-24 12:55:50,682 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Health at 2022-11-24 03:50:44.913624
+2022-11-24 12:55:50,683 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.videos at 2022-11-24 03:50:44.914232
+2022-11-24 12:55:50,684 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Fitness at 2022-11-24 03:50:44.914777
+2022-11-24 12:55:50,685 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilephone at 2022-11-24 03:50:44.915321
+2022-11-24 12:55:50,686 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tv at 2022-11-24 03:50:44.915870
+2022-11-24 12:55:50,688 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.findmy at 2022-11-24 03:50:44.916424
+2022-11-24 12:55:50,689 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Translate at 2022-11-24 03:50:44.916993
+2022-11-24 12:55:50,690 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.shortcuts at 2022-11-24 03:50:44.917580
+2022-11-24 12:55:50,692 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.VoiceMemos at 2022-11-24 03:50:44.918163
+2022-11-24 12:55:50,694 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 12:55:50,697 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 12:55:50,698 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 12:55:50,699 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 12:55:50,701 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 12:55:50,701 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 12:55:50,703 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 12:55:50,704 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 12:55:50,706 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 12:55:50,708 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 12:55:50,711 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 12:55:50,713 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 12:55:50,715 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 12:55:50,718 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 12:55:50,719 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 12:55:50,720 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 12:55:50,723 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 12:55:50,725 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 12:55:50,727 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 12:55:50,728 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 12:55:50,729 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 12:55:50,730 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 12:55:50,732 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 12:55:50,733 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 12:55:50,734 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 12:55:50,735 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 12:55:50,736 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 12:55:50,739 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 12:55:50,741 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 12:55:50,742 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 13:13:14,837 - mvt.ios.modules.fs.cache_files - INFO - Running module CacheFiles...
+2022-11-24 13:13:14,851 - mvt.ios.modules.fs.cache_files - INFO - The CacheFiles module produced no detections!
+2022-11-24 13:13:14,853 - mvt.ios.modules.fs.filesystem - INFO - Running module Filesystem...
+2022-11-24 13:13:14,944 - mvt.ios.modules.fs.filesystem - INFO - The Filesystem module produced no detections!
+2022-11-24 13:13:14,956 - mvt.ios.modules.fs.net_netusage - INFO - Running module Netusage...
+2022-11-24 13:13:14,957 - mvt.ios.modules.fs.net_netusage - INFO - The Netusage module produced no detections!
+2022-11-24 13:13:14,958 - mvt.ios.modules.fs.analytics - INFO - Running module Analytics...
+2022-11-24 13:13:14,959 - mvt.ios.modules.fs.analytics - INFO - Extracted 0 records from analytics databases
+2022-11-24 13:13:14,960 - mvt.ios.modules.fs.analytics - INFO - The Analytics module produced no detections!
+2022-11-24 13:13:14,962 - mvt.ios.modules.fs.analytics_ios_versions - INFO - Running module AnalyticsIOSVersions...
+2022-11-24 13:13:14,963 - mvt.ios.modules.fs.analytics_ios_versions - INFO - The AnalyticsIOSVersions module does not support checking for indicators
+2022-11-24 13:13:14,964 - mvt.ios.modules.fs.safari_favicon - INFO - Running module SafariFavicon...
+2022-11-24 13:13:14,965 - mvt.ios.modules.fs.safari_favicon - INFO - Extracted a total of 0 favicon records
+2022-11-24 13:13:14,966 - mvt.ios.modules.fs.safari_favicon - INFO - The SafariFavicon module produced no detections!
+2022-11-24 13:13:14,968 - mvt.ios.modules.fs.shutdownlog - INFO - Running module ShutdownLog...
+2022-11-24 13:13:14,968 - mvt.ios.modules.fs.shutdownlog - INFO - There might be no data to extract by module ShutdownLog: unable to find the module's database file
+2022-11-24 13:13:14,970 - mvt.ios.modules.fs.version_history - INFO - Running module IOSVersionHistory...
+2022-11-24 13:13:14,971 - mvt.ios.modules.fs.version_history - INFO - The IOSVersionHistory module does not support checking for indicators
+2022-11-24 13:13:14,972 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Running module WebkitIndexedDB...
+2022-11-24 13:13:14,973 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Extracted a total of 0 WebKit IndexedDB records
+2022-11-24 13:13:14,974 - mvt.ios.modules.fs.webkit_indexeddb - INFO - The WebkitIndexedDB module produced no detections!
+2022-11-24 13:13:14,975 - mvt.ios.modules.fs.webkit_localstorage - INFO - Running module WebkitLocalStorage...
+2022-11-24 13:13:14,976 - mvt.ios.modules.fs.webkit_localstorage - INFO - Extracted a total of 0 records from WebKit Local Storages
+2022-11-24 13:13:14,977 - mvt.ios.modules.fs.webkit_localstorage - INFO - The WebkitLocalStorage module produced no detections!
+2022-11-24 13:13:14,978 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Running module WebkitSafariViewService...
+2022-11-24 13:13:14,979 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Extracted a total of 0 records from WebKit SafariViewService WebsiteData
+2022-11-24 13:13:14,980 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - The WebkitSafariViewService module produced no detections!
+2022-11-24 13:13:14,982 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 13:13:14,984 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 13:13:14,985 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 13:13:14,986 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 13:13:14,988 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 13:13:14,989 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 13:13:14,990 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 13:13:14,991 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 13:13:14,992 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 13:13:14,994 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 13:13:14,995 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 13:13:14,998 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 13:13:14,999 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 13:13:15,000 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 13:13:15,001 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 13:13:15,002 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 13:13:15,003 - mvt.ios.modules.mixed.idstatuscache - INFO - Extracted a total of 0 ID Status Cache entries
+2022-11-24 13:13:15,004 - mvt.ios.modules.mixed.idstatuscache - INFO - The IDStatusCache module produced no detections!
+2022-11-24 13:13:15,006 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 13:13:15,007 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 13:13:15,008 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 13:13:15,010 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 13:13:15,011 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 0 Locationd Clients entries
+2022-11-24 13:13:15,012 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 13:13:15,013 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 13:13:15,014 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 13:13:15,016 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 13:13:15,018 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 13:13:15,021 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 13:13:15,023 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 13:13:15,026 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 13:13:15,028 - mvt.ios.modules.mixed.net_datausage - INFO - Extended search for suspicious processes ...
+2022-11-24 13:13:15,048 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.camera at 2022-11-24 03:50:44.871090
+2022-11-24 13:13:15,050 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.stocks at 2022-11-24 03:50:44.872037
+2022-11-24 13:13:15,051 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.iBooks at 2022-11-24 03:50:44.872460
+2022-11-24 13:13:15,053 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Maps at 2022-11-24 03:50:44.874568
+2022-11-24 13:13:15,054 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.AppStore at 2022-11-24 03:50:44.875111
+2022-11-24 13:13:15,055 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileStore at 2022-11-24 03:50:44.875458
+2022-11-24 13:13:15,057 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Preferences at 2022-11-24 03:50:44.878571
+2022-11-24 13:13:15,058 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tips at 2022-11-24 03:50:44.879132
+2022-11-24 13:13:15,059 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilesafari at 2022-11-24 03:50:44.879481
+2022-11-24 13:13:15,061 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.podcasts at 2022-11-24 03:50:44.879843
+2022-11-24 13:13:15,062 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.weather at 2022-11-24 03:50:44.880203
+2022-11-24 13:13:15,063 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.news at 2022-11-24 03:50:44.880611
+2022-11-24 13:13:15,065 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Bridge at 2022-11-24 03:50:44.881012
+2022-11-24 13:13:15,066 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilecal at 2022-11-24 03:50:44.881392
+2022-11-24 13:13:15,067 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.reminders at 2022-11-24 03:50:44.881783
+2022-11-24 13:13:15,069 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Music at 2022-11-24 03:50:44.882178
+2022-11-24 13:13:15,070 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilemail at 2022-11-24 03:50:44.882581
+2022-11-24 13:13:15,071 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilenotes at 2022-11-24 03:50:44.883041
+2022-11-24 13:13:15,073 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobiletimer at 2022-11-24 03:50:44.883579
+2022-11-24 13:13:15,074 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobileslideshow at 2022-11-24 03:50:44.884126
+2022-11-24 13:13:15,076 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.facetime at 2022-11-24 03:50:44.884687
+2022-11-24 13:13:15,077 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.compass at 2022-11-24 03:50:44.885704
+2022-11-24 13:13:15,078 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileAddressBook at 2022-11-24 03:50:44.886353
+2022-11-24 13:13:15,080 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Passbook at 2022-11-24 03:50:44.895051
+2022-11-24 13:13:15,081 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.gamecenter at 2022-11-24 03:50:44.900683
+2022-11-24 13:13:15,083 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Home at 2022-11-24 03:50:44.902621
+2022-11-24 13:13:15,084 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Health at 2022-11-24 03:50:44.913624
+2022-11-24 13:13:15,085 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.videos at 2022-11-24 03:50:44.914232
+2022-11-24 13:13:15,087 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Fitness at 2022-11-24 03:50:44.914777
+2022-11-24 13:13:15,088 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilephone at 2022-11-24 03:50:44.915321
+2022-11-24 13:13:15,089 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tv at 2022-11-24 03:50:44.915870
+2022-11-24 13:13:15,091 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.findmy at 2022-11-24 03:50:44.916424
+2022-11-24 13:13:15,092 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Translate at 2022-11-24 03:50:44.916993
+2022-11-24 13:13:15,093 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.shortcuts at 2022-11-24 03:50:44.917580
+2022-11-24 13:13:15,095 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.VoiceMemos at 2022-11-24 03:50:44.918163
+2022-11-24 13:13:15,098 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 13:13:15,100 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 13:13:15,101 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 13:13:15,103 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 13:13:15,104 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 13:13:15,105 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 13:13:15,106 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 13:13:15,107 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 13:13:15,109 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 13:13:15,111 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 13:13:15,114 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 13:13:15,116 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 13:13:15,118 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:13:15,121 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 13:13:15,122 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 13:13:15,123 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 13:13:15,126 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:13:15,129 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 13:13:15,130 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 13:13:15,131 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 13:13:15,132 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 13:13:15,134 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 13:13:15,135 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 13:13:15,136 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 13:13:15,137 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 13:13:15,139 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 13:13:15,140 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 13:13:15,144 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 13:13:15,146 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 13:13:15,147 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 13:13:31,459 - mvt.ios.modules.backup.backup_info - INFO - Running module BackupInfo...
+2022-11-24 13:13:31,460 - mvt.ios.modules.backup.backup_info - INFO - Build Version: 19H12
+2022-11-24 13:13:31,461 - mvt.ios.modules.backup.backup_info - INFO - Device Name: iPhone
+2022-11-24 13:13:31,462 - mvt.ios.modules.backup.backup_info - INFO - Display Name: iPhone
+2022-11-24 13:13:31,463 - mvt.ios.modules.backup.backup_info - INFO - GUID: 6B649687405A4F012847EBB9BE9DA885
+2022-11-24 13:13:31,464 - mvt.ios.modules.backup.backup_info - INFO - ICCID: None
+2022-11-24 13:13:31,465 - mvt.ios.modules.backup.backup_info - INFO - IMEI: 355423070303867
+2022-11-24 13:13:31,467 - mvt.ios.modules.backup.backup_info - INFO - MEID: 35542307030386
+2022-11-24 13:13:31,468 - mvt.ios.modules.backup.backup_info - INFO - Installed Applications: []
+2022-11-24 13:13:31,469 - mvt.ios.modules.backup.backup_info - INFO - Last Backup Date: 2022-11-24 18:20:44
+2022-11-24 13:13:31,471 - mvt.ios.modules.backup.backup_info - INFO - Phone Number: None
+2022-11-24 13:13:31,472 - mvt.ios.modules.backup.backup_info - INFO - Product Name: None
+2022-11-24 13:13:31,474 - mvt.ios.modules.backup.backup_info - INFO - Product Type: iPhone8,1 (iPhone 6s)
+2022-11-24 13:13:31,475 - mvt.ios.modules.backup.backup_info - INFO - Product Version: 15.7
+2022-11-24 13:13:31,476 - mvt.ios.modules.backup.backup_info - INFO - Serial Number: F17QL8LNGRY7
+2022-11-24 13:13:31,478 - mvt.ios.modules.backup.backup_info - INFO - Target Identifier: a46e61b9b29bd67a677d0ee635fa1fa59316bdaf
+2022-11-24 13:13:31,479 - mvt.ios.modules.backup.backup_info - INFO - Target Type: Device
+2022-11-24 13:13:31,480 - mvt.ios.modules.backup.backup_info - INFO - Unique Identifier: A46E61B9B29BD67A677D0EE635FA1FA59316BDAF
+2022-11-24 13:13:31,481 - mvt.ios.modules.backup.backup_info - INFO - iTunes Version: 12.5.0
+2022-11-24 13:13:31,482 - mvt.ios.modules.backup.backup_info - WARNING - This phone is running an outdated iOS version: 15.7 (latest is 16.1.1)
+2022-11-24 13:13:31,484 - mvt.ios.modules.backup.backup_info - INFO - The BackupInfo module does not support checking for indicators
+2022-11-24 13:13:31,486 - mvt.ios.modules.backup.configuration_profiles - INFO - Running module ConfigurationProfiles...
+2022-11-24 13:13:31,488 - mvt.ios.modules.backup.configuration_profiles - INFO - Extracted details about 0 configuration profiles
+2022-11-24 13:13:31,489 - mvt.ios.modules.backup.configuration_profiles - INFO - The ConfigurationProfiles module produced no detections!
+2022-11-24 13:13:31,490 - mvt.ios.modules.backup.manifest - INFO - Running module Manifest...
+2022-11-24 13:13:31,491 - mvt.ios.modules.backup.manifest - INFO - Found Manifest.db database at path: decrypt/Manifest.db
+2022-11-24 13:13:31,816 - mvt.ios.modules.backup.manifest - INFO - Extracted a total of 3054 file metadata items
+2022-11-24 13:13:32,061 - mvt.ios.modules.backup.manifest - WARNING - Found a potentially suspicious "com.apple.CrashReporter.plist" file created in RootDomain
+2022-11-24 13:13:32,178 - mvt.ios.modules.backup.profile_events - INFO - Running module ProfileEvents...
+2022-11-24 13:13:32,179 - mvt.ios.modules.backup.profile_events - INFO - Extracted 0 profile events
+2022-11-24 13:13:32,180 - mvt.ios.modules.backup.profile_events - INFO - The ProfileEvents module produced no detections!
+2022-11-24 13:13:32,181 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 13:13:32,183 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 13:13:32,185 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 13:13:32,186 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 13:13:32,188 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 13:13:32,189 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 13:13:32,191 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 13:13:32,192 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 13:13:32,193 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 13:13:32,195 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 13:13:32,196 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 13:13:32,199 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 13:13:32,200 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 13:13:32,201 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 13:13:32,202 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 13:13:32,203 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 13:13:32,204 - mvt.ios.modules.mixed.idstatuscache - INFO - There might be no data to extract by module IDStatusCache: unable to find the module's database file
+2022-11-24 13:13:32,206 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 13:13:32,208 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 13:13:32,209 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 13:13:32,211 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 13:13:32,212 - mvt.ios.modules.mixed.locationd - INFO - Found Locationd Clients plist at path: decrypt/a6/a690d7769cce8904ca2b67320b107c8fe5f79412
+2022-11-24 13:13:32,214 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 50 Locationd Clients entries
+2022-11-24 13:13:32,218 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 13:13:32,220 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 13:13:32,222 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 13:13:32,224 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 13:13:32,227 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 13:13:32,230 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 13:13:32,232 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 13:13:32,234 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 13:13:32,237 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 13:13:32,239 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 13:13:32,241 - mvt.ios.modules.mixed.safari_browserstate - INFO - Found Safari browser state database at path: decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e
+2022-11-24 13:13:32,243 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 13:13:32,244 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 13:13:32,245 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 13:13:32,247 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 13:13:32,248 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 13:13:32,249 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 13:13:32,251 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 13:13:32,254 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 13:13:32,256 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 13:13:32,259 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 13:13:32,261 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:13:32,264 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 13:13:32,265 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 13:13:32,266 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 13:13:32,269 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:13:32,272 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 13:13:32,273 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 13:13:32,274 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 13:13:32,276 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 13:13:32,277 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 13:13:32,279 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 13:13:32,280 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 13:13:32,281 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 13:13:32,282 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 13:13:32,284 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 13:13:32,286 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 13:13:32,289 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 13:13:32,291 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 13:17:17,653 - mvt.ios.modules.fs.cache_files - INFO - Running module CacheFiles...
+2022-11-24 13:17:17,661 - mvt.ios.modules.fs.cache_files - INFO - The CacheFiles module produced no detections!
+2022-11-24 13:17:17,663 - mvt.ios.modules.fs.filesystem - INFO - Running module Filesystem...
+2022-11-24 13:17:17,750 - mvt.ios.modules.fs.filesystem - INFO - The Filesystem module produced no detections!
+2022-11-24 13:17:17,763 - mvt.ios.modules.fs.net_netusage - INFO - Running module Netusage...
+2022-11-24 13:17:17,764 - mvt.ios.modules.fs.net_netusage - INFO - The Netusage module produced no detections!
+2022-11-24 13:17:17,765 - mvt.ios.modules.fs.analytics - INFO - Running module Analytics...
+2022-11-24 13:17:17,766 - mvt.ios.modules.fs.analytics - INFO - Extracted 0 records from analytics databases
+2022-11-24 13:17:17,767 - mvt.ios.modules.fs.analytics - INFO - The Analytics module produced no detections!
+2022-11-24 13:17:17,768 - mvt.ios.modules.fs.analytics_ios_versions - INFO - Running module AnalyticsIOSVersions...
+2022-11-24 13:17:17,769 - mvt.ios.modules.fs.analytics_ios_versions - INFO - The AnalyticsIOSVersions module does not support checking for indicators
+2022-11-24 13:17:17,770 - mvt.ios.modules.fs.safari_favicon - INFO - Running module SafariFavicon...
+2022-11-24 13:17:17,772 - mvt.ios.modules.fs.safari_favicon - INFO - Extracted a total of 0 favicon records
+2022-11-24 13:17:17,772 - mvt.ios.modules.fs.safari_favicon - INFO - The SafariFavicon module produced no detections!
+2022-11-24 13:17:17,774 - mvt.ios.modules.fs.shutdownlog - INFO - Running module ShutdownLog...
+2022-11-24 13:17:17,775 - mvt.ios.modules.fs.shutdownlog - INFO - There might be no data to extract by module ShutdownLog: unable to find the module's database file
+2022-11-24 13:17:17,776 - mvt.ios.modules.fs.version_history - INFO - Running module IOSVersionHistory...
+2022-11-24 13:17:17,778 - mvt.ios.modules.fs.version_history - INFO - The IOSVersionHistory module does not support checking for indicators
+2022-11-24 13:17:17,779 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Running module WebkitIndexedDB...
+2022-11-24 13:17:17,780 - mvt.ios.modules.fs.webkit_indexeddb - INFO - Extracted a total of 0 WebKit IndexedDB records
+2022-11-24 13:17:17,781 - mvt.ios.modules.fs.webkit_indexeddb - INFO - The WebkitIndexedDB module produced no detections!
+2022-11-24 13:17:17,782 - mvt.ios.modules.fs.webkit_localstorage - INFO - Running module WebkitLocalStorage...
+2022-11-24 13:17:17,783 - mvt.ios.modules.fs.webkit_localstorage - INFO - Extracted a total of 0 records from WebKit Local Storages
+2022-11-24 13:17:17,784 - mvt.ios.modules.fs.webkit_localstorage - INFO - The WebkitLocalStorage module produced no detections!
+2022-11-24 13:17:17,785 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Running module WebkitSafariViewService...
+2022-11-24 13:17:17,786 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - Extracted a total of 0 records from WebKit SafariViewService WebsiteData
+2022-11-24 13:17:17,787 - mvt.ios.modules.fs.webkit_safariviewservice - INFO - The WebkitSafariViewService module produced no detections!
+2022-11-24 13:17:17,788 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 13:17:17,791 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 13:17:17,793 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 13:17:17,794 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 13:17:17,795 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 13:17:17,796 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 13:17:17,797 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 13:17:17,798 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 13:17:17,800 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 13:17:17,801 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 13:17:17,802 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 13:17:17,805 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 13:17:17,806 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 13:17:17,807 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 13:17:17,808 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 13:17:17,810 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 13:17:17,811 - mvt.ios.modules.mixed.idstatuscache - INFO - Extracted a total of 0 ID Status Cache entries
+2022-11-24 13:17:17,812 - mvt.ios.modules.mixed.idstatuscache - INFO - The IDStatusCache module produced no detections!
+2022-11-24 13:17:17,814 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 13:17:17,815 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 13:17:17,816 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 13:17:17,818 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 13:17:17,819 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 0 Locationd Clients entries
+2022-11-24 13:17:17,820 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 13:17:17,822 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 13:17:17,823 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 13:17:17,825 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 13:17:17,827 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 13:17:17,829 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 13:17:17,831 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 13:17:17,834 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 13:17:17,835 - mvt.ios.modules.mixed.net_datausage - INFO - Extended search for suspicious processes ...
+2022-11-24 13:17:17,854 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.camera at 2022-11-24 03:50:44.871090
+2022-11-24 13:17:17,855 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.stocks at 2022-11-24 03:50:44.872037
+2022-11-24 13:17:17,856 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.iBooks at 2022-11-24 03:50:44.872460
+2022-11-24 13:17:17,857 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Maps at 2022-11-24 03:50:44.874568
+2022-11-24 13:17:17,859 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.AppStore at 2022-11-24 03:50:44.875111
+2022-11-24 13:17:17,860 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileStore at 2022-11-24 03:50:44.875458
+2022-11-24 13:17:17,861 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Preferences at 2022-11-24 03:50:44.878571
+2022-11-24 13:17:17,862 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tips at 2022-11-24 03:50:44.879132
+2022-11-24 13:17:17,863 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilesafari at 2022-11-24 03:50:44.879481
+2022-11-24 13:17:17,865 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.podcasts at 2022-11-24 03:50:44.879843
+2022-11-24 13:17:17,866 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.weather at 2022-11-24 03:50:44.880203
+2022-11-24 13:17:17,867 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.news at 2022-11-24 03:50:44.880611
+2022-11-24 13:17:17,868 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Bridge at 2022-11-24 03:50:44.881012
+2022-11-24 13:17:17,869 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilecal at 2022-11-24 03:50:44.881392
+2022-11-24 13:17:17,871 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.reminders at 2022-11-24 03:50:44.881783
+2022-11-24 13:17:17,872 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Music at 2022-11-24 03:50:44.882178
+2022-11-24 13:17:17,874 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilemail at 2022-11-24 03:50:44.882581
+2022-11-24 13:17:17,875 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilenotes at 2022-11-24 03:50:44.883041
+2022-11-24 13:17:17,876 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobiletimer at 2022-11-24 03:50:44.883579
+2022-11-24 13:17:17,878 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobileslideshow at 2022-11-24 03:50:44.884126
+2022-11-24 13:17:17,879 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.facetime at 2022-11-24 03:50:44.884687
+2022-11-24 13:17:17,880 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.compass at 2022-11-24 03:50:44.885704
+2022-11-24 13:17:17,881 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.MobileAddressBook at 2022-11-24 03:50:44.886353
+2022-11-24 13:17:17,883 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Passbook at 2022-11-24 03:50:44.895051
+2022-11-24 13:17:17,884 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.gamecenter at 2022-11-24 03:50:44.900683
+2022-11-24 13:17:17,885 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Home at 2022-11-24 03:50:44.902621
+2022-11-24 13:17:17,886 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Health at 2022-11-24 03:50:44.913624
+2022-11-24 13:17:17,888 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.videos at 2022-11-24 03:50:44.914232
+2022-11-24 13:17:17,889 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Fitness at 2022-11-24 03:50:44.914777
+2022-11-24 13:17:17,891 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.mobilephone at 2022-11-24 03:50:44.915321
+2022-11-24 13:17:17,893 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.tv at 2022-11-24 03:50:44.915870
+2022-11-24 13:17:17,894 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.findmy at 2022-11-24 03:50:44.916424
+2022-11-24 13:17:17,895 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.Translate at 2022-11-24 03:50:44.916993
+2022-11-24 13:17:17,896 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.shortcuts at 2022-11-24 03:50:44.917580
+2022-11-24 13:17:17,897 - mvt.ios.modules.mixed.net_datausage - INFO - Found process entry in ZPROCESS but not in ZLIVEUSAGE: 1FB47783-A2FE-47D9-B256-DF50EF44BBA4/com.apple.VoiceMemos at 2022-11-24 03:50:44.918163
+2022-11-24 13:17:17,900 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 13:17:17,902 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 13:17:17,903 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 13:17:17,905 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 13:17:17,906 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 13:17:17,907 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 13:17:17,908 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 13:17:17,909 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 13:17:17,911 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 13:17:17,914 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 13:17:17,916 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 13:17:17,919 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 13:17:17,921 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:17:17,924 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 13:17:17,925 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 13:17:17,926 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 13:17:17,928 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:17:17,931 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 13:17:17,932 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 13:17:17,933 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 13:17:17,935 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 13:17:17,936 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 13:17:17,937 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 13:17:17,939 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 13:17:17,940 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 13:17:17,941 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 13:17:17,942 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 13:17:17,945 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 13:17:17,947 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 13:17:17,948 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 13:17:26,101 - mvt.ios.modules.backup.backup_info - INFO - Running module BackupInfo...
+2022-11-24 13:17:26,103 - mvt.ios.modules.backup.backup_info - INFO - Build Version: 19H12
+2022-11-24 13:17:26,103 - mvt.ios.modules.backup.backup_info - INFO - Device Name: iPhone
+2022-11-24 13:17:26,104 - mvt.ios.modules.backup.backup_info - INFO - Display Name: iPhone
+2022-11-24 13:17:26,105 - mvt.ios.modules.backup.backup_info - INFO - GUID: 6B649687405A4F012847EBB9BE9DA885
+2022-11-24 13:17:26,107 - mvt.ios.modules.backup.backup_info - INFO - ICCID: None
+2022-11-24 13:17:26,108 - mvt.ios.modules.backup.backup_info - INFO - IMEI: 355423070303867
+2022-11-24 13:17:26,109 - mvt.ios.modules.backup.backup_info - INFO - MEID: 35542307030386
+2022-11-24 13:17:26,110 - mvt.ios.modules.backup.backup_info - INFO - Installed Applications: []
+2022-11-24 13:17:26,111 - mvt.ios.modules.backup.backup_info - INFO - Last Backup Date: 2022-11-24 18:20:44
+2022-11-24 13:17:26,112 - mvt.ios.modules.backup.backup_info - INFO - Phone Number: None
+2022-11-24 13:17:26,113 - mvt.ios.modules.backup.backup_info - INFO - Product Name: None
+2022-11-24 13:17:26,113 - mvt.ios.modules.backup.backup_info - INFO - Product Type: iPhone8,1 (iPhone 6s)
+2022-11-24 13:17:26,114 - mvt.ios.modules.backup.backup_info - INFO - Product Version: 15.7
+2022-11-24 13:17:26,115 - mvt.ios.modules.backup.backup_info - INFO - Serial Number: F17QL8LNGRY7
+2022-11-24 13:17:26,116 - mvt.ios.modules.backup.backup_info - INFO - Target Identifier: a46e61b9b29bd67a677d0ee635fa1fa59316bdaf
+2022-11-24 13:17:26,117 - mvt.ios.modules.backup.backup_info - INFO - Target Type: Device
+2022-11-24 13:17:26,118 - mvt.ios.modules.backup.backup_info - INFO - Unique Identifier: A46E61B9B29BD67A677D0EE635FA1FA59316BDAF
+2022-11-24 13:17:26,119 - mvt.ios.modules.backup.backup_info - INFO - iTunes Version: 12.5.0
+2022-11-24 13:17:26,120 - mvt.ios.modules.backup.backup_info - WARNING - This phone is running an outdated iOS version: 15.7 (latest is 16.1.1)
+2022-11-24 13:17:26,121 - mvt.ios.modules.backup.backup_info - INFO - The BackupInfo module does not support checking for indicators
+2022-11-24 13:17:26,123 - mvt.ios.modules.backup.configuration_profiles - INFO - Running module ConfigurationProfiles...
+2022-11-24 13:17:26,125 - mvt.ios.modules.backup.configuration_profiles - INFO - Extracted details about 0 configuration profiles
+2022-11-24 13:17:26,126 - mvt.ios.modules.backup.configuration_profiles - INFO - The ConfigurationProfiles module produced no detections!
+2022-11-24 13:17:26,128 - mvt.ios.modules.backup.manifest - INFO - Running module Manifest...
+2022-11-24 13:17:26,129 - mvt.ios.modules.backup.manifest - INFO - Found Manifest.db database at path: decrypt/Manifest.db
+2022-11-24 13:17:26,462 - mvt.ios.modules.backup.manifest - INFO - Extracted a total of 3054 file metadata items
+2022-11-24 13:17:26,713 - mvt.ios.modules.backup.manifest - WARNING - Found a potentially suspicious "com.apple.CrashReporter.plist" file created in RootDomain
+2022-11-24 13:17:26,801 - mvt.ios.modules.backup.profile_events - INFO - Running module ProfileEvents...
+2022-11-24 13:17:26,803 - mvt.ios.modules.backup.profile_events - INFO - Extracted 0 profile events
+2022-11-24 13:17:26,804 - mvt.ios.modules.backup.profile_events - INFO - The ProfileEvents module produced no detections!
+2022-11-24 13:17:26,805 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 13:17:26,807 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 13:17:26,809 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 13:17:26,810 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 13:17:26,811 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 13:17:26,812 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 13:17:26,814 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 13:17:26,815 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 13:17:26,816 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 13:17:26,817 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 13:17:26,819 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 13:17:26,821 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 13:17:26,823 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 13:17:26,824 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 13:17:26,826 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 13:17:26,827 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 13:17:26,828 - mvt.ios.modules.mixed.idstatuscache - INFO - There might be no data to extract by module IDStatusCache: unable to find the module's database file
+2022-11-24 13:17:26,830 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 13:17:26,831 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 13:17:26,833 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 13:17:26,836 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 13:17:26,859 - mvt.ios.modules.mixed.locationd - INFO - Found Locationd Clients plist at path: decrypt/a6/a690d7769cce8904ca2b67320b107c8fe5f79412
+2022-11-24 13:17:26,882 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 50 Locationd Clients entries
+2022-11-24 13:17:26,908 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 13:17:26,968 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 13:17:26,970 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 13:17:26,972 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 13:17:26,975 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 13:17:26,978 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 13:17:26,980 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 13:17:26,983 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 13:17:26,986 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 13:17:26,988 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 13:17:26,990 - mvt.ios.modules.mixed.safari_browserstate - INFO - Found Safari browser state database at path: decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e
+2022-11-24 13:17:26,992 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 13:17:26,993 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 13:17:26,995 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 13:17:26,996 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 13:17:26,997 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 13:17:26,998 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 13:17:27,000 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 13:17:27,003 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 13:17:27,005 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 13:17:27,008 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 13:17:27,010 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:17:27,013 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 13:17:27,014 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 13:17:27,015 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 13:17:27,018 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 13:17:27,020 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 13:17:27,021 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 13:17:27,023 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 13:17:27,025 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 13:17:27,026 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 13:17:27,028 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 13:17:27,029 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 13:17:27,030 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 13:17:27,031 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 13:17:27,033 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 13:17:27,035 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 13:17:27,038 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 13:17:27,039 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!
+2022-11-24 17:23:11,812 - mvt.ios.modules.backup.backup_info - INFO - Running module BackupInfo...
+2022-11-24 17:23:11,817 - mvt.ios.modules.backup.backup_info - INFO - Build Version: 19H12
+2022-11-24 17:23:11,819 - mvt.ios.modules.backup.backup_info - INFO - Device Name: iPhone
+2022-11-24 17:23:11,820 - mvt.ios.modules.backup.backup_info - INFO - Display Name: iPhone
+2022-11-24 17:23:11,821 - mvt.ios.modules.backup.backup_info - INFO - GUID: 6B649687405A4F012847EBB9BE9DA885
+2022-11-24 17:23:11,823 - mvt.ios.modules.backup.backup_info - INFO - ICCID: None
+2022-11-24 17:23:11,824 - mvt.ios.modules.backup.backup_info - INFO - IMEI: 355423070303867
+2022-11-24 17:23:11,825 - mvt.ios.modules.backup.backup_info - INFO - MEID: 35542307030386
+2022-11-24 17:23:11,826 - mvt.ios.modules.backup.backup_info - INFO - Installed Applications: []
+2022-11-24 17:23:11,827 - mvt.ios.modules.backup.backup_info - INFO - Last Backup Date: 2022-11-24 18:20:44
+2022-11-24 17:23:11,829 - mvt.ios.modules.backup.backup_info - INFO - Phone Number: None
+2022-11-24 17:23:11,830 - mvt.ios.modules.backup.backup_info - INFO - Product Name: None
+2022-11-24 17:23:11,831 - mvt.ios.modules.backup.backup_info - INFO - Product Type: iPhone8,1 (iPhone 6s)
+2022-11-24 17:23:11,832 - mvt.ios.modules.backup.backup_info - INFO - Product Version: 15.7
+2022-11-24 17:23:11,833 - mvt.ios.modules.backup.backup_info - INFO - Serial Number: F17QL8LNGRY7
+2022-11-24 17:23:11,834 - mvt.ios.modules.backup.backup_info - INFO - Target Identifier: a46e61b9b29bd67a677d0ee635fa1fa59316bdaf
+2022-11-24 17:23:11,835 - mvt.ios.modules.backup.backup_info - INFO - Target Type: Device
+2022-11-24 17:23:11,836 - mvt.ios.modules.backup.backup_info - INFO - Unique Identifier: A46E61B9B29BD67A677D0EE635FA1FA59316BDAF
+2022-11-24 17:23:11,837 - mvt.ios.modules.backup.backup_info - INFO - iTunes Version: 12.5.0
+2022-11-24 17:23:11,838 - mvt.ios.modules.backup.backup_info - WARNING - This phone is running an outdated iOS version: 15.7 (latest is 16.1.1)
+2022-11-24 17:23:11,840 - mvt.ios.modules.backup.backup_info - INFO - The BackupInfo module does not support checking for indicators
+2022-11-24 17:23:11,846 - mvt.ios.modules.backup.configuration_profiles - INFO - Running module ConfigurationProfiles...
+2022-11-24 17:23:11,854 - mvt.ios.modules.backup.configuration_profiles - INFO - Extracted details about 0 configuration profiles
+2022-11-24 17:23:11,855 - mvt.ios.modules.backup.configuration_profiles - INFO - The ConfigurationProfiles module produced no detections!
+2022-11-24 17:23:11,857 - mvt.ios.modules.backup.manifest - INFO - Running module Manifest...
+2022-11-24 17:23:11,858 - mvt.ios.modules.backup.manifest - INFO - Found Manifest.db database at path: decrypt/Manifest.db
+2022-11-24 17:23:12,222 - mvt.ios.modules.backup.manifest - INFO - Extracted a total of 3054 file metadata items
+2022-11-24 17:23:12,491 - mvt.ios.modules.backup.manifest - WARNING - Found a potentially suspicious "com.apple.CrashReporter.plist" file created in RootDomain
+2022-11-24 17:23:12,594 - mvt.ios.modules.backup.profile_events - INFO - Running module ProfileEvents...
+2022-11-24 17:23:12,596 - mvt.ios.modules.backup.profile_events - INFO - Extracted 0 profile events
+2022-11-24 17:23:12,597 - mvt.ios.modules.backup.profile_events - INFO - The ProfileEvents module produced no detections!
+2022-11-24 17:23:12,598 - mvt.ios.modules.mixed.calls - INFO - Running module Calls...
+2022-11-24 17:23:12,602 - mvt.ios.modules.mixed.calls - INFO - Found Calls database at path: decrypt/5a/5a4935c78a5255723f707230a451d79c540d2741
+2022-11-24 17:23:12,604 - mvt.ios.modules.mixed.calls - INFO - Extracted a total of 0 calls
+2022-11-24 17:23:12,605 - mvt.ios.modules.mixed.calls - INFO - The Calls module does not support checking for indicators
+2022-11-24 17:23:12,607 - mvt.ios.modules.mixed.chrome_favicon - INFO - Running module ChromeFavicon...
+2022-11-24 17:23:12,609 - mvt.ios.modules.mixed.chrome_favicon - INFO - There might be no data to extract by module ChromeFavicon: unable to find the module's database file
+2022-11-24 17:23:12,610 - mvt.ios.modules.mixed.chrome_history - INFO - Running module ChromeHistory...
+2022-11-24 17:23:12,612 - mvt.ios.modules.mixed.chrome_history - INFO - There might be no data to extract by module ChromeHistory: unable to find the module's database file
+2022-11-24 17:23:12,614 - mvt.ios.modules.mixed.contacts - INFO - Running module Contacts...
+2022-11-24 17:23:12,616 - mvt.ios.modules.mixed.contacts - INFO - Found Contacts database at path: decrypt/31/31bb7ba8914766d4ba40d6dfb6113c8b614be442
+2022-11-24 17:23:12,617 - mvt.ios.modules.mixed.contacts - ERROR - Error in running extraction from module Contacts: no such table: ABPerson
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/contacts.py", line 43, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ABPerson
+2022-11-24 17:23:12,621 - mvt.ios.modules.mixed.firefox_favicon - INFO - Running module FirefoxFavicon...
+2022-11-24 17:23:12,622 - mvt.ios.modules.mixed.firefox_favicon - INFO - There might be no data to extract by module FirefoxFavicon: unable to find the module's database file
+2022-11-24 17:23:12,623 - mvt.ios.modules.mixed.firefox_history - INFO - Running module FirefoxHistory...
+2022-11-24 17:23:12,624 - mvt.ios.modules.mixed.firefox_history - INFO - There might be no data to extract by module FirefoxHistory: unable to find the module's database file
+2022-11-24 17:23:12,626 - mvt.ios.modules.mixed.idstatuscache - INFO - Running module IDStatusCache...
+2022-11-24 17:23:12,627 - mvt.ios.modules.mixed.idstatuscache - INFO - There might be no data to extract by module IDStatusCache: unable to find the module's database file
+2022-11-24 17:23:12,628 - mvt.ios.modules.mixed.interactionc - INFO - Running module InteractionC...
+2022-11-24 17:23:12,630 - mvt.ios.modules.mixed.interactionc - INFO - Found InteractionC database at path: decrypt/1f/1f5a521220a3ad80ebfdc196978df8e7a2e49dee
+2022-11-24 17:23:12,632 - mvt.ios.modules.mixed.interactionc - ERROR - Error in running extraction from module InteractionC: no such table: ZINTERACTIONS
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/common/module.py", line 166, in run_module
+    module.run()
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/mvt/ios/modules/mixed/interactionc.py", line 87, in run
+    cur.execute("""
+sqlite3.OperationalError: no such table: ZINTERACTIONS
+2022-11-24 17:23:12,634 - mvt.ios.modules.mixed.locationd - INFO - Running module LocationdClients...
+2022-11-24 17:23:12,637 - mvt.ios.modules.mixed.locationd - INFO - Found Locationd Clients plist at path: decrypt/a6/a690d7769cce8904ca2b67320b107c8fe5f79412
+2022-11-24 17:23:12,639 - mvt.ios.modules.mixed.locationd - INFO - Extracted a total of 50 Locationd Clients entries
+2022-11-24 17:23:12,644 - mvt.ios.modules.mixed.locationd - INFO - The LocationdClients module produced no detections!
+2022-11-24 17:23:12,666 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Running module OSAnalyticsADDaily...
+2022-11-24 17:23:12,669 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Found com.apple.osanalytics.addaily plist at path: decrypt/f6/f65b5fafc69bbd3c60be019c6e938e146825fa83
+2022-11-24 17:23:12,671 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - Extracted a total of 37 com.apple.osanalytics.addaily entries
+2022-11-24 17:23:12,673 - mvt.ios.modules.mixed.osanalytics_addaily - INFO - The OSAnalyticsADDaily module produced no detections!
+2022-11-24 17:23:12,676 - mvt.ios.modules.mixed.net_datausage - INFO - Running module Datausage...
+2022-11-24 17:23:12,678 - mvt.ios.modules.mixed.net_datausage - INFO - Found DataUsage database at path: decrypt/0d/0d609c54856a9bb2d56729df1d68f2958a88426b
+2022-11-24 17:23:12,682 - mvt.ios.modules.mixed.net_datausage - INFO - Extracted information on 35 processes
+2022-11-24 17:23:12,685 - mvt.ios.modules.mixed.net_datausage - INFO - The Datausage module produced no detections!
+2022-11-24 17:23:12,687 - mvt.ios.modules.mixed.safari_browserstate - INFO - Running module SafariBrowserState...
+2022-11-24 17:23:12,690 - mvt.ios.modules.mixed.safari_browserstate - INFO - Found Safari browser state database at path: decrypt/3a/3a47b0981ed7c10f3e2800aa66bac96a3b5db28e
+2022-11-24 17:23:12,692 - mvt.ios.modules.mixed.safari_browserstate - INFO - Extracted a total of 0 tab records and 0 session history entries
+2022-11-24 17:23:12,693 - mvt.ios.modules.mixed.safari_browserstate - INFO - The SafariBrowserState module produced no detections!
+2022-11-24 17:23:12,695 - mvt.ios.modules.mixed.safari_history - INFO - Running module SafariHistory...
+2022-11-24 17:23:12,696 - mvt.ios.modules.mixed.safari_history - INFO - Extracted a total of 0 history records
+2022-11-24 17:23:12,697 - mvt.ios.modules.mixed.safari_history - INFO - The SafariHistory module produced no detections!
+2022-11-24 17:23:12,698 - mvt.ios.modules.mixed.tcc - INFO - Running module TCC...
+2022-11-24 17:23:12,701 - mvt.ios.modules.mixed.tcc - INFO - Found TCC database at path: decrypt/64/64d0019cb3d46bfc8cce545a8ba54b93e7ea9347
+2022-11-24 17:23:12,704 - mvt.ios.modules.mixed.tcc - INFO - Extracted a total of 36 TCC items
+2022-11-24 17:23:12,707 - mvt.ios.modules.mixed.tcc - INFO - The TCC module produced no detections!
+2022-11-24 17:23:12,709 - mvt.ios.modules.mixed.sms - INFO - Running module SMS...
+2022-11-24 17:23:12,713 - mvt.ios.modules.mixed.sms - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 17:23:12,717 - mvt.ios.modules.mixed.sms - INFO - Extracted a total of 0 SMS messages containing links
+2022-11-24 17:23:12,718 - mvt.ios.modules.mixed.sms - INFO - The SMS module produced no detections!
+2022-11-24 17:23:12,719 - mvt.ios.modules.mixed.sms_attachments - INFO - Running module SMSAttachments...
+2022-11-24 17:23:12,722 - mvt.ios.modules.mixed.sms_attachments - INFO - Found SMS database at path: decrypt/3d/3d0d7e5fb2ce288813306e4d4636395e047a3d28
+2022-11-24 17:23:12,725 - mvt.ios.modules.mixed.sms_attachments - INFO - Extracted a total of 0 SMS attachments
+2022-11-24 17:23:12,726 - mvt.ios.modules.mixed.sms_attachments - INFO - The SMSAttachments module does not support checking for indicators
+2022-11-24 17:23:12,727 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - Running module WebkitResourceLoadStatistics...
+2022-11-24 17:23:12,729 - mvt.ios.modules.mixed.webkit_resource_load_statistics - INFO - The WebkitResourceLoadStatistics module produced no detections!
+2022-11-24 17:23:12,730 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Running module WebkitSessionResourceLog...
+2022-11-24 17:23:12,732 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - Extracted records from 0 Safari browsing session resource logs
+2022-11-24 17:23:12,733 - mvt.ios.modules.mixed.webkit_session_resource_log - INFO - The WebkitSessionResourceLog module produced no detections!
+2022-11-24 17:23:12,734 - mvt.ios.modules.mixed.whatsapp - INFO - Running module Whatsapp...
+2022-11-24 17:23:12,736 - mvt.ios.modules.mixed.whatsapp - INFO - There might be no data to extract by module Whatsapp: unable to find the module's database file
+2022-11-24 17:23:12,737 - mvt.ios.modules.mixed.shortcuts - INFO - Running module Shortcuts...
+2022-11-24 17:23:12,740 - mvt.ios.modules.mixed.shortcuts - INFO - Found Shortcuts database at path: decrypt/5b/5b4d0b44b5990f62b9f4d34ad8dc382bf0b01094
+2022-11-24 17:23:12,743 - mvt.ios.modules.mixed.shortcuts - INFO - Extracted a total of 0 Shortcuts
+2022-11-24 17:23:12,744 - mvt.ios.modules.mixed.shortcuts - INFO - The Shortcuts module produced no detections!

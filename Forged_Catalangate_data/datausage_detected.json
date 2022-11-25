@@ -1,0 +1,1602 @@
+[
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "ABSCarryLog",
+        "bundle_id": "ABSCarryLog",
+        "proc_id": 156,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "ABSCarryLog",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "CommsCenterRootHelper",
+        "bundle_id": "CommsCenterRootHelper",
+        "proc_id": 173,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "CommsCenterRootHelper",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "Diagnostic-2543",
+        "bundle_id": "Diagnostic-2543",
+        "proc_id": 181,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "Diagnostic-2543",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "Diagnosticd",
+        "bundle_id": "Diagnosticd",
+        "proc_id": 182,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "Diagnosticd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "Diagnostics-2543",
+        "bundle_id": "Diagnostics-2543",
+        "proc_id": 183,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "Diagnostics-2543",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "GoldenGate",
+        "bundle_id": "GoldenGate",
+        "proc_id": 193,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "GoldenGate",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "JarvisPluginMgr",
+        "bundle_id": "JarvisPluginMgr",
+        "proc_id": 195,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "JarvisPluginMgr",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "MobileSMSd",
+        "bundle_id": "MobileSMSd",
+        "proc_id": 207,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "MobileSMSd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "PDPDialogs",
+        "bundle_id": "PDPDialogs",
+        "proc_id": 218,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "PDPDialogs",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "ReminderIntentsUIExtension",
+        "bundle_id": "ReminderIntentsUIExtension",
+        "proc_id": 220,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "ReminderIntentsUIExtension",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "accountpfd",
+        "bundle_id": "accountpfd",
+        "proc_id": 157,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "accountpfd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "actmanaged",
+        "bundle_id": "actmanaged",
+        "proc_id": 158,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "actmanaged",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "aggregatenotd",
+        "bundle_id": "aggregatenotd",
+        "proc_id": 159,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "aggregatenotd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "appccntd",
+        "bundle_id": "appccntd",
+        "proc_id": 160,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "appccntd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "bfrgbd",
+        "bundle_id": "bfrgbd",
+        "proc_id": 161,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "bfrgbd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "bh",
+        "bundle_id": "bh",
+        "proc_id": 162,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "bh",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "bluetoothfs",
+        "bundle_id": "bluetoothfs",
+        "proc_id": 163,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "bluetoothfs",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "boardframed",
+        "bundle_id": "boardframed",
+        "proc_id": 164,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "boardframed",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "brfstagingd",
+        "bundle_id": "brfstagingd",
+        "proc_id": 166,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "brfstagingd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "brstaged",
+        "bundle_id": "brstaged",
+        "proc_id": 165,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "brstaged",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "bundpwrd",
+        "bundle_id": "bundpwrd",
+        "proc_id": 167,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "bundpwrd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "cfprefssd",
+        "bundle_id": "cfprefssd",
+        "proc_id": 168,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "cfprefssd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "ckeblld",
+        "bundle_id": "ckeblld",
+        "proc_id": 169,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "ckeblld",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "ckkeyrollfd",
+        "bundle_id": "ckkeyrollfd",
+        "proc_id": 170,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "ckkeyrollfd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "com.apple.Mappit.SnapshotService",
+        "bundle_id": "com.apple.Mappit.SnapshotService",
+        "proc_id": 171,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "com.apple.Mappit.SnapshotService",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "com.apple.rapports.events",
+        "bundle_id": "com.apple.rapports.events",
+        "proc_id": 172,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "com.apple.rapports.events",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "comnetd",
+        "bundle_id": "comnetd",
+        "proc_id": 174,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "comnetd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "comsercvd",
+        "bundle_id": "comsercvd",
+        "proc_id": 175,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "comsercvd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "confinstalld",
+        "bundle_id": "confinstalld",
+        "proc_id": 176,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "confinstalld",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "contextstoremgrd",
+        "bundle_id": "contextstoremgrd",
+        "proc_id": 177,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "contextstoremgrd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "corecomnetd",
+        "bundle_id": "corecomnetd",
+        "proc_id": 178,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "corecomnetd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "ctrlfs",
+        "bundle_id": "ctrlfs",
+        "proc_id": 179,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "ctrlfs",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "dhcp4d",
+        "bundle_id": "dhcp4d",
+        "proc_id": 180,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "dhcp4d",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "eventfssd",
+        "bundle_id": "eventfssd",
+        "proc_id": 184,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "eventfssd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "eventsfssd",
+        "bundle_id": "eventsfssd",
+        "proc_id": 185,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "eventsfssd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "eventstorpd",
+        "bundle_id": "eventstorpd",
+        "proc_id": 186,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "eventstorpd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "faskeepd",
+        "bundle_id": "faskeepd",
+        "proc_id": 187,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "faskeepd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "fdlibframed",
+        "bundle_id": "fdlibframed",
+        "proc_id": 188,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "fdlibframed",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "fmld",
+        "bundle_id": "fmld",
+        "proc_id": 189,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "fmld",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "fnotifyd",
+        "bundle_id": "fnotifyd",
+        "proc_id": 232,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "fnotifyd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "frtipd",
+        "bundle_id": "frtipd",
+        "proc_id": 190,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "frtipd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "fservernetd",
+        "bundle_id": "fservernetd",
+        "proc_id": 191,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "fservernetd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "gatekeeperd",
+        "bundle_id": "gatekeeperd",
+        "proc_id": 192,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "gatekeeperd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "gssdp",
+        "bundle_id": "gssdp",
+        "proc_id": 194,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "gssdp",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "jlmvskrd",
+        "bundle_id": "jlmvskrd",
+        "proc_id": 196,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "jlmvskrd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "keybrd",
+        "bundle_id": "keybrd",
+        "proc_id": 230,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "keybrd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "launchafd",
+        "bundle_id": "launchafd",
+        "proc_id": 197,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "launchafd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "launchrexd",
+        "bundle_id": "launchrexd",
+        "proc_id": 198,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "launchrexd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "libbmanaged",
+        "bundle_id": "libbmanaged",
+        "proc_id": 199,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "libbmanaged",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "libtouchregd",
+        "bundle_id": "libtouchregd",
+        "proc_id": 200,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "libtouchregd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "llmdwatchd",
+        "bundle_id": "llmdwatchd",
+        "proc_id": 201,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "llmdwatchd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "lobbrogd",
+        "bundle_id": "lobbrogd",
+        "proc_id": 202,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "lobbrogd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "locserviced",
+        "bundle_id": "locserviced",
+        "proc_id": 203,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "locserviced",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "logseld",
+        "bundle_id": "logseld",
+        "proc_id": 204,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "logseld",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "misbrigd",
+        "bundle_id": "misbrigd",
+        "proc_id": 205,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "misbrigd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "mobileargd",
+        "bundle_id": "mobileargd",
+        "proc_id": 206,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "mobileargd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "mptbd",
+        "bundle_id": "mptbd",
+        "proc_id": 208,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "mptbd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "msgacntd",
+        "bundle_id": "msgacntd",
+        "proc_id": 209,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "msgacntd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "natgd",
+        "bundle_id": "natgd",
+        "proc_id": 210,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "natgd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "neagentd",
+        "bundle_id": "neagentd",
+        "proc_id": 211,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "neagentd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "nehelprd",
+        "bundle_id": "nehelprd",
+        "proc_id": 212,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "nehelprd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "netservcomd",
+        "bundle_id": "netservcomd",
+        "proc_id": 213,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "netservcomd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "otpgrefd",
+        "bundle_id": "otpgrefd",
+        "proc_id": 214,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "otpgrefd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "passsd",
+        "bundle_id": "passsd",
+        "proc_id": 215,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "passsd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "payload",
+        "bundle_id": "payload",
+        "proc_id": 216,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "payload",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "pcsd",
+        "bundle_id": "pcsd",
+        "proc_id": 217,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "pcsd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "pstid",
+        "bundle_id": "pstid",
+        "proc_id": 219,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "pstid",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "rlaccountd",
+        "bundle_id": "rlaccountd",
+        "proc_id": 221,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "rlaccountd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "roleaboutd",
+        "bundle_id": "roleaboutd",
+        "proc_id": 222,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "roleaboutd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "roleaccountd",
+        "bundle_id": "roleaccountd",
+        "proc_id": 223,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "roleaccountd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "rolexd",
+        "bundle_id": "rolexd",
+        "proc_id": 224,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "rolexd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "seraccountd",
+        "bundle_id": "seraccountd",
+        "proc_id": 225,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "seraccountd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "setframed",
+        "bundle_id": "setframed",
+        "proc_id": 226,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "setframed",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "smmsgingd",
+        "bundle_id": "smmsgingd",
+        "proc_id": 227,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "smmsgingd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "stagingd",
+        "bundle_id": "stagingd",
+        "proc_id": 228,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "stagingd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "tisppd",
+        "bundle_id": "tisppd",
+        "proc_id": 233,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "tisppd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "updaterd",
+        "bundle_id": "updaterd",
+        "proc_id": 234,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "updaterd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "vm_stats",
+        "bundle_id": "vm_stats",
+        "proc_id": 229,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "vm_stats",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "wifip2ppd",
+        "bundle_id": "wifip2ppd",
+        "proc_id": 235,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "wifip2ppd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    },
+    {
+        "first_isodate": "2016-04-18 18:32:52.900000",
+        "isodate": "2016-04-18 18:32:52.900000",
+        "proc_name": "xpccfd",
+        "bundle_id": "xpccfd",
+        "proc_id": 231,
+        "wifi_in": null,
+        "wifi_out": null,
+        "wwan_in": null,
+        "wwan_out": null,
+        "live_id": null,
+        "live_proc_id": null,
+        "live_isodate": "2016-04-18 18:32:52.900000",
+        "matched_indicator": {
+            "value": "xpccfd",
+            "type": "processes",
+            "name": "Pegasus",
+            "stix2_file_name": "raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2"
+        }
+    }
+]
